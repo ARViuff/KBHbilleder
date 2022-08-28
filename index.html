@@ -10,9 +10,9 @@
       href="https://fonts.googleapis.com/css2?family=Aboreto&display=swap"
       rel="stylesheet"
     />
-    <title>Vite App</title>
+    <title>Københavnerbilleder</title>
     <script type="module" crossorigin src="./assets/main.ae54f498.js"></script>
-    <link rel="stylesheet" href="./assets/index.59f87acb.css">
+    <link rel="stylesheet" href="./assets/index.955a07b1.css">
   </head>
   <body
     class="grid place-items-center bg-gradient-to-r from-primary via-secondary to-primary p-8"
@@ -20,26 +20,35 @@
     <div
       class="border-4 border-solid border-x-primary border-y-secondary bg-secondary bg-contain drop-shadow-2xl backdrop-blur-lg"
     >
-      <h1 class="text-center text-xl font-bold">Københavnerbilleder</h1>
-      <div class="grid grid-cols-2 gap-2 p-3">
-        <img
-          src="./assets/nikkormat-ft2-remiseparken-7.8f3f4a9f.webp"
-          alt="bog"
-          class="rounded-md border-2 border-solid border-primary"
-        />
-        <div class="">
-          <p class="font-semibold">en guide til hipster foto af Sten Simons</p>
-          <br />
-          <div class="flex justify-center">
-            <a
-              href="index.html/#shop"
-              class="inline-block w-[100px] rounded-lg bg-thrid p-4 text-center hover:bg-forth hover:ring"
-              ><b>køb</b></a
-            >
+      <h1 class="text-center text-xl font-bold md:text-4xl">
+        Københavnerbilleder
+      </h1>
+      <div class="md:max-h-full md:bg-landingpage md:bg-cover md:bg-no-repeat">
+        <div class="grid grid-cols-2 gap-2 p-3 md:grid-cols-1">
+          <div class="object-fit md:order-last">
+            <img
+              src="./assets/nikkormat-ft2-remiseparken-7.8f3f4a9f.webp"
+              alt="bog"
+              class="rounded-md border-2 border-solid border-primary md:w-48 md:opacity-0"
+            />
+          </div>
+          <div
+            class="bg-secondary md:border-4 md:border-x-primary md:border-y-secondary"
+          >
+            <p class="font-semibold md:text-center">
+              en guide til hipster foto af Sten Simons
+            </p>
+            <br />
+            <div class="flex justify-center">
+              <a
+                href="index.html/#shop"
+                class="inline-block w-[100px] rounded-lg bg-thrid p-4 text-center hover:bg-forth hover:ring"
+                ><b>køb</b></a
+              >
+            </div>
           </div>
         </div>
       </div>
-
       <div class="border-black m-3 border-t-2 border-solid">
         <p>
           <b>Titel</b>: Københavnerbilleder - en guide til hipster foto <br />
@@ -182,44 +191,70 @@
         </p>
       </div>
 
-      <h2 class="flex justify-center text-xl font-bold">Billeder fra bogen</h2>
-      <div class="grid grid-cols-2">
-        <img src="./assets/0008.2883a599.webp" alt="billed1" />
+      <h2 class="flex justify-center py-3 text-xl font-bold">
+        Billeder fra bogen
+      </h2>
+      <div
+        class="grid grid-cols-2 gap-1 md:grid-cols-5 md:gap-2 md:object-contain md:px-4"
+      >
+        <img
+          src="./assets/0008.2883a599.webp"
+          alt="billed1"
+          class="md:order-7 md:col-span-2"
+        />
         <img
           src="./assets/agfa-genanvendeligt-kamera-35mm-11.5c951fe3.webp"
           alt="billed2"
+          class="md:order-9 md:col-span-2"
         />
         <img
           src="./assets/amarminoen-med-et-agfa-le-box-11.0910c2a9.webp"
           alt="billed3"
+          class="md:col-span-2"
         />
         <img
           src="./assets/foraar-med-et-agfa-le-box-2021-17.f18cdd4b.webp"
           alt="billed4"
+          class="md:col-span-2"
         />
         <img
           src="./assets/orestad-til-islands-brygge-pentax-auto-110-8.7500404d.webp"
           alt="billed5"
+          class="md:order-4"
         />
-        <img src="./assets/kbh-by-night-3.aa9c84fe.webp" alt="billed6" />
-        <img src="./assets/lomo-smena-15.1437599a.webp" alt="billed7" />
+        <img src="./assets/kbh-by-night-3.aa9c84fe.webp" alt="billed6" class="" />
+        <img src="./assets/lomo-smena-15.1437599a.webp" alt="billed7" class="" />
         <img
           src="./assets/orestad-til-islands-brygge-pentax-auto-110-19.11663763.webp"
           alt="billed8"
+          class="md:order-3 md:col-span-1"
         />
         <img
           src="./assets/pinhole-objektiver-ved-eghjorten-3.3d93ec07.webp"
           alt="billed9"
+          class="md:col-span-1"
         />
-        <img src="./assets/vinter-2021-med-lomo-smena-17.3ffc8b80.webp" alt="billed10" />
-      </div>
-      <h2 class="flex justify-center text-xl font-bold">Forfatteren</h2>
-      <div class="grid-cols-2 gap-2 md:grid">
         <img
-          src="./assets/sten_simons.363bd72b.webp"
-          alt="billed af forfatter"
-          class=""
+          src="./assets/vinter-2021-med-lomo-smena-17.3ffc8b80.webp"
+          alt="billed10"
+          class="md:col-span-1"
         />
+        <img
+          src="./assets/orestad-til-islands-brygge-pentax-auto-110-16.489bfe59.webp"
+          alt="billed11"
+          class="h-0 opacity-0 md:h-full md:opacity-100"
+        />
+      </div>
+
+      <h2 class="flex justify-center py-3 text-xl font-bold">Forfatteren</h2>
+      <div class="grid-cols-2 place-items-center md:grid">
+        <div class="md:object-contain">
+          <img
+            src="./assets/sten_simons.363bd72b.webp"
+            alt="billed af forfatter"
+            class="md:col-span-2 md:max-h-[700px] md:w-[300px]"
+          />
+        </div>
         <p class="m-3">
           Sten Simons har en lang foto-karriere bag sig. Det hele startede i
           00’erne, da han gik rundt i Pisserenden for at fotografere ungdommens
@@ -232,16 +267,17 @@
           visuel odysse, og lærebogen Fotografering for evnesvage.
         </p>
       </div>
-
-      <h2 class="flex justify-center text-xl font-bold">
-        Køb KBH Billeder nu!
-      </h2>
-      <div class="flex justify-center">
-        <a
-          href=""
-          class="m-2 inline-flex min-w-[100px] rounded-lg bg-thrid p-4 text-center hover:animate-pulse hover:bg-forth hover:ring hover:ease-in"
-          ><b>køb den nu!</b></a
-        >
+      <div class="py-4">
+        <h2 class="flex justify-center text-xl font-bold">
+          Køb KBH Billeder nu!
+        </h2>
+        <div class="flex justify-center">
+          <a
+            href=""
+            class="m-2 inline-flex min-w-[100px] rounded-lg bg-thrid p-4 text-center hover:animate-pulse hover:bg-forth hover:ring hover:ease-in"
+            ><b>køb den nu!</b></a
+          >
+        </div>
       </div>
       <div class="flex justify-around">
         <p class="italic">Footer</p>
